@@ -22,8 +22,19 @@ function AlumnoPage() {
 <br/>
 <br/>
 <br/>
-        <h1 className="text-5xl font-bold text-center">ALUMNOS</h1>
+        <h1 className="text-5xl font-bold text-center">ALUMNOS REGISTRADOS</h1>
         <div className="grid grid-cols-3 gap-2">{renderMain()}</div>
+
+        <br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
         </div>
     );
 }

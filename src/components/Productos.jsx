@@ -70,13 +70,13 @@ function Productos() {
       <div className="carousel-item">
         <img src={producto2} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: 'blue'}}>Taza Cobra Kai</h5>
+          <h5 style={{color: 'blue'}}>Remera masculina</h5>
         </div>
       </div>
           <div className="carousel-item">
         <img src={producto3} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: 'blue'}}>Remera femenina</h5>
+          <h5 style={{color: 'blue'}}>Taza Cobra Kai</h5>
         </div>
       </div>
           <div className="carousel-item">
@@ -94,7 +94,7 @@ function Productos() {
           <div className="carousel-item">
         <img src={producto6} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
-          <h5 style={{color: 'blue'}}>Remera masculina</h5>
+          <h5 style={{color: 'blue'}}>Remera femenina</h5>
         </div>
       </div>
     </div>

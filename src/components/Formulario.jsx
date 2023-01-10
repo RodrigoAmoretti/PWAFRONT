@@ -32,6 +32,13 @@ function AlumnoForm() {
 
     return (
         <div>
+            <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2>Estas a punto de formar parte de la familia Cobra Kai, sumate!</h2>
         <Formik
             initialValues={alumno}
             enableReinitialize={true}
@@ -107,6 +114,20 @@ function AlumnoForm() {
             </Form>
             )}
         </Formik>
+        <br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
         </div>
     );
 }
