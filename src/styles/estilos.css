@@ -1,0 +1,174 @@
+body{
+
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+h1{
+    font-size: 72px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+
+    
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h3{
+
+    
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h6{
+
+    
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foto__equipo{
+
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 25px 25px 25px 25px;
+}
+
+
+
+
+#navbar{
+
+    position: fixed;
+    left: 0;      
+    top: 0;       
+    width: 100%;
+    background-color: rgba(255,255,255,0.5)!important ;
+}
+
+
+/*imagenes con texto hover*/
+
+/* Parent Container */
+.content_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+   }
+   
+
+   /* Child Text Container */
+  .content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}
+
+  .content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+/*imagenes con texto hover END*/
+
+
+/*lista de beneficios*/
+
+.beneficios{
+text-decoration: underline;
+text-decoration-color: white;
+font-weight: bold;
+font-size: larger;
+background: white;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.lista_beneficios{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*lista de beneficios END*/
+
+.fuente{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 25px 25px 25px 25px
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:  repeat(8, 150px);
+    grid-template-rows: repeat(8, 100px);
+    padding-left: 20rem;
+    }
+  #item1 {
+    grid-row: 1;
+    grid-column:4;
+  }
+  #item2 {
+    grid-row: 3;
+    grid-column:2;
+  }
+  #item3 {
+    grid-row: 3;
+    grid-column:6;
+  }
+  #item4 {
+    grid-row: 5;
+    grid-column:1;
+  }
+  #item5 {
+    grid-row: 5;
+    grid-column:7;
+  }
+  #item6{
+    grid-row: 7;
+    grid-column:2;
+  }
+  #item7{
+    grid-row: 7;
+    grid-column:6;
+  }
+
+
+  #warning{
+    color: red!important;
+    text-align: center;
+    font-weight: bold;
+  }
