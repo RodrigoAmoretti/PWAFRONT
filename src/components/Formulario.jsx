@@ -66,39 +66,39 @@ function AlumnoForm() {
                 <h1 className="text-xl font-bold uppercase text-center">
                 {params.id ? "Editar Alumno" : "Nuevo Alumno"}
                 </h1>
-                <label className="block">Nombre</label>
+                <label className="block text-white"></label>
                 <input
                 type="text"
                 name="nombre"
                 placeholder="Escribí tu Nombre"
-                className="px-2 py-1 rounded-sm w-full"
+                className="px-2 py-1 rounded-sm w-full m-3"
                 onChange={handleChange}
                 value={values.nombre}
                 />
-                <label className="block">Email</label>
+                <label className="block text-white"></label>
                 <input
                 type="text"
                 name="email"
                 placeholder="Escribí tu Email"
-                className="px-2 py-1 rounded-sm w-full"
+                className="px-2 py-1 rounded-sm w-full m-3"
                 onChange={handleChange}
                 value={values.email}
                 />
-                <label className="block">Telefono</label>
+                <label className="block text-white"></label>
                 <input
                 type="text"
                 name="telefono"
                 placeholder="Escribí tu teléfono"
-                className="px-2 py-1 rounded-sm w-full"
+                className="px-2 py-1 rounded-sm w-full m-3"
                 onChange={handleChange}
                 value={values.telefono}
                 />
-                <label className="block">Disciplina</label>
+                <label className="block text-white"></label>
                 <input
                 type="text"
                 name="disciplina"
                 placeholder="Escribí tu Disciplina"
-                className="px-2 py-1 rounded-sm w-full"
+                className="px-2 py-1 rounded-sm w-full m-3"
                 onChange={handleChange}
                 value={values.disciplina}
                 />
@@ -107,9 +107,9 @@ function AlumnoForm() {
                 <button
                 type="submit"
                 disabled={isSubmitting}
-                className="block bg-indigo-500 px-2 py-1 text-white w-full rounded-md"
+                className="block bg-indigo-500 px-2 py-1 w-full rounded-md"
                 >
-                {isSubmitting ? "Guardando..." : "Guardado!"}
+                {isSubmitting ? "Enviando..." : "Enviar!"}
                 </button>
             </Form>
             )}
